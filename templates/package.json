@@ -1,0 +1,36 @@
+{
+  "name": "harness-tracker-skill",
+  "version": "1.0.0",
+  "description": "Output-driven harness visualization and reconstruction engine for Claude Code and Codex",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheeze-lee/harness-tracker-skill.git"
+  },
+  "keywords": [
+    "harness",
+    "tracker",
+    "claude",
+    "codex",
+    "agent",
+    "reconstruction",
+    "observability"
+  ],
+  "author": "Manus AI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cheeze-lee/harness-tracker-skill/issues"
+  },
+  "homepage": "https://github.com/cheeze-lee/harness-tracker-skill#readme",
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
